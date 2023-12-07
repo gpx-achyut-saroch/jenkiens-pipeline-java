@@ -10,11 +10,11 @@ pipeline {
             steps {
                 sh 'mvn clean install'
             }
-        }
         stage('Sonar') {
             steps {
-                sh 'mvn sonar:sonar -Dsonar.login=sqp_6dbf1775f81a36a026b76854f5a2b6b7b696ff95'
+                 sh 'mvn clean install sonar:sonar -Dsonar.login=sqp_cb87607010dcefcb4369a08129257547a99bfe04'
             }
+
         }
     }
 }
