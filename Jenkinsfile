@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'mvn clean install sonar:sonar -Dsonar.login=sqp_cb87607010dcefcb4369a08129257547a99bfe04'
+                sh 'mvn clean install sonar:sonar -Dsonar.login=sqa_563928249becdedf2627fd27ad041dfad00b511c'
             }
             post {
                 always {
