@@ -18,7 +18,7 @@
         <sonar.language>java</sonar.language>
         <sonar.tests>src/test/java</sonar.tests>
         <sonar.projectKey>Jenkines-pipeline-java</sonar.projectKey>
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.host.url>https://gpx-sonarqube-m7ken.ondigitalocean.app/</sonar.host.url>
     </properties>
 
     <dependencies>
